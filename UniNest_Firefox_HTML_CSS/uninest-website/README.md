@@ -39,6 +39,10 @@ The project includes the following pages:
 - Contact
 - Login and Sign Up
 
+## Screen-Shots
+! [index.html]
+(UniNest_Firefox_HTML_CSS.../assets/images/hero-room.jpg)
+
 ## 🚀 How to Run the Project
 
 1. Download or clone this repository.
