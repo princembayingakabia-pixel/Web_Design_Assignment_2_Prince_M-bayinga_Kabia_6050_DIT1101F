@@ -1,1 +1,119 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="UniNest Freetown student accommodation platform"><title>Student Dashboard | UniNest Freetown</title><link rel="stylesheet" href="assets/style.css?v=3"></head><body><header class="site-header"><div class="container nav"><a class="brand" href="index.html"><span class="brand-mark">⌂</span><span>UNINEST<small>FREETOWN</small></span></a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="nav-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="features.html">Major Features</a><a href="contact.html">Contact</a></nav><div class="nav-actions"><a class="btn btn-outline" href="login.html">Login</a><a class="btn btn-primary" href="login.html#signup">Sign Up</a></div></div></header><main><div class="container dashboard"><aside class="sidebar"><h3>STUDENT MENU</h3><a class="active" href="dashboard.html">› Dashboard</a><a href="listings.html">› Explore Properties</a><a href="#saved">› Saved Properties</a><a href="#bookings">› My Bookings</a><a href="#messages">› Messages</a><a href="contact.html">› My Profile</a><a href="contact.html">› Settings</a><a href="login.html">› Log Out</a></aside><section><span class="eyebrow">Student dashboard</span><h1 style="color:var(--navy);margin:8px 0">Hello, Aminata!</h1><p class="muted">Manage your housing search in one place.</p><div class="stats-grid"><div class="stat"><strong>2</strong><span>Active Requests</span></div><div class="stat"><strong>4</strong><span>Saved Properties</span></div><div class="stat"><strong>3</strong><span>New Messages</span></div></div><div id="saved" class="dashboard-section"><div class="section-heading"><div><h2>Saved Properties</h2><p>Keep track of places you are interested in.</p></div><a class="btn btn-outline" href="listings.html">Explore more</a></div><div class="saved-grid"><article class="property-card" data-property data-location="Lumley" data-price="2500" data-type="single room" data-amenities="water wi-fi security"><div class="property-photo"><img loading="lazy" src="assets/images/room-campus.jpg" alt="Interior of Cozy Room in Lumley"><span class="verified">✓ Verified</span><button class="save-btn" aria-label="Save property">♡</button></div><div class="property-info"><h3>Cozy Room</h3><div class="location">⌖ Lumley, Freetown</div><div class="price">Le 2,500 <small>/ month</small></div><div class="amenities"><span class="tag">Water</span><span class="tag">Wi-Fi</span><span class="tag">Security</span></div><a class="btn btn-outline" href="property-details.html">View Details →</a></div></article><article class="property-card" data-property data-location="Hill Station" data-price="3500" data-type="apartment" data-amenities="electricity wi-fi water"><div class="property-photo"><img loading="lazy" src="assets/images/room-view.jpg" alt="Interior of Modern Studio in Hill Station"><span class="verified">✓ Verified</span><button class="save-btn" aria-label="Save property">♡</button></div><div class="property-info"><h3>Modern Studio</h3><div class="location">⌖ Hill Station, Freetown</div><div class="price">Le 3,500 <small>/ month</small></div><div class="amenities"><span class="tag">Electricity</span><span class="tag">Wi-Fi</span><span class="tag">Water</span></div><a class="btn btn-outline" href="property-details.html">View Details →</a></div></article></div></div><div id="bookings" class="dashboard-section"><h2>Booking Requests</h2><div class="card" style="padding:20px"><div style="display:flex;justify-content:space-between;gap:15px;align-items:center;flex-wrap:wrap"><div><strong>Cozy Room — Lumley</strong><div class="muted">Viewing request · Status: Pending</div></div><span class="tag" style="background:#fff4d9;color:#8b6500">Pending</span><a href="property-details.html" class="btn btn-outline">View Request</a></div></div></div><div id="messages" class="dashboard-section"><h2>Messages</h2><p class="muted">Your recent messages will appear here when messaging is connected.</p></div></section></div></main><footer class="site-footer"><div class="container"><div class="footer-grid"><div><a class="brand" href="index.html"><span class="brand-mark">⌂</span><span>UNINEST<small>FREETOWN</small></span></a><p>Helping students find safe, verified and affordable accommodation in Freetown, Sierra Leone.</p></div><div><strong>Explore</strong><div class="footer-links"><a href="index.html">Home</a><a href="about.html">About us</a><a href="services.html">Services</a><a href="listings.html">Property listings</a></div></div><div><strong>Support</strong><div class="footer-links"><a href="contact.html">Contact</a><a href="features.html">Features</a><a href="login.html">Student account</a><a href="contact.html#faq">Safety & FAQs</a></div></div></div><div class="footer-bottom"><span>© 2026 UniNest Freetown. Student project demonstration.</span><span>Privacy · Safety · Help</span></div></div></footer></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="UniNest Freetown student accommodation platform">
+    <title>Student Dashboard | UniNest Freetown</title>
+    <link rel="stylesheet" href="assets/style.css?v=3">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container nav"><a class="brand" href="index.html"><span
+                    class="brand-mark">⌂</span><span>UNINEST<small>FREETOWN</small></span></a><button
+                class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+            <nav class="nav-links"><a href="index.html">Home</a><a href="about.html">About</a><a
+                    href="services.html">Services</a><a href="features.html">Major Features</a><a
+                    href="contact.html">Contact</a></nav>
+            <div class="nav-actions"><a class="btn btn-outline" href="login.html">Login</a><a class="btn btn-primary"
+                    href="login.html#signup">Sign Up</a></div>
+        </div>
+    </header>
+    <main>
+        <div class="container dashboard">
+            <aside class="sidebar">
+                <h3>STUDENT MENU</h3><a class="active" href="dashboard.html">› Dashboard</a><a href="listings.html">›
+                    Explore Properties</a><a href="#saved">› Saved Properties</a><a href="#bookings">› My Bookings</a><a
+                    href="#messages">› Messages</a><a href="contact.html">› My Profile</a><a href="contact.html">›
+                    Settings</a><a href="login.html">› Log Out</a>
+            </aside>
+            <section><span class="eyebrow">Student dashboard</span>
+                <h1 style="color:var(--navy);margin:8px 0">Hello, Aminata!</h1>
+                <p class="muted">Manage your housing search in one place.</p>
+                <div class="stats-grid">
+                    <div class="stat"><strong>2</strong><span>Active Requests</span></div>
+                    <div class="stat"><strong>4</strong><span>Saved Properties</span></div>
+                    <div class="stat"><strong>3</strong><span>New Messages</span></div>
+                </div>
+                <div id="saved" class="dashboard-section">
+                    <div class="section-heading">
+                        <div>
+                            <h2>Saved Properties</h2>
+                            <p>Keep track of places you are interested in.</p>
+                        </div><a class="btn btn-outline" href="listings.html">Explore more</a>
+                    </div>
+                    <div class="saved-grid">
+                        <article class="property-card" data-property data-location="Lumley" data-price="2500"
+                            data-type="single room" data-amenities="water wi-fi security">
+                            <div class="property-photo"><img loading="lazy" src="assets/images/room-campus.jpg"
+                                    alt="Interior of Cozy Room in Lumley"><span class="verified">✓
+                                    Verified</span><button class="save-btn" aria-label="Save property">♡</button></div>
+                            <div class="property-info">
+                                <h3>Cozy Room</h3>
+                                <div class="location">⌖ Lumley, Freetown</div>
+                                <div class="price">Le 2,500 <small>/ month</small></div>
+                                <div class="amenities"><span class="tag">Water</span><span class="tag">Wi-Fi</span><span
+                                        class="tag">Security</span></div><a class="btn btn-outline"
+                                    href="property-details.html">View Details →</a>
+                            </div>
+                        </article>
+                        <article class="property-card" data-property data-location="Hill Station" data-price="3500"
+                            data-type="apartment" data-amenities="electricity wi-fi water">
+                            <div class="property-photo"><img loading="lazy" src="assets/images/room-view.jpg"
+                                    alt="Interior of Modern Studio in Hill Station"><span class="verified">✓
+                                    Verified</span><button class="save-btn" aria-label="Save property">♡</button></div>
+                            <div class="property-info">
+                                <h3>Modern Studio</h3>
+                                <div class="location">⌖ Hill Station, Freetown</div>
+                                <div class="price">Le 3,500 <small>/ month</small></div>
+                                <div class="amenities"><span class="tag">Electricity</span><span
+                                        class="tag">Wi-Fi</span><span class="tag">Water</span></div><a
+                                    class="btn btn-outline" href="property-details.html">View Details →</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div id="bookings" class="dashboard-section">
+                    <h2>Booking Requests</h2>
+                    <div class="card" style="padding:20px">
+                        <div
+                            style="display:flex;justify-content:space-between;gap:15px;align-items:center;flex-wrap:wrap">
+                            <div><strong>Cozy Room — Lumley</strong>
+                                <div class="muted">Viewing request · Status: Pending</div>
+                            </div><span class="tag" style="background:#fff4d9;color:#8b6500">Pending</span><a
+                                href="property-details.html" class="btn btn-outline">View Request</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="messages" class="dashboard-section">
+                    <h2>Messages</h2>
+                    <p class="muted">Your recent messages will appear here when messaging is connected.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div><a class="brand" href="index.html"><span
+                            class="brand-mark">⌂</span><span>UNINEST<small>FREETOWN</small></span></a>
+                    <p>Helping students find safe, verified and affordable accommodation in Freetown, Sierra Leone.</p>
+                </div>
+                <div><strong>Explore</strong>
+                    <div class="footer-links"><a href="index.html">Home</a><a href="about.html">About us</a><a
+                            href="services.html">Services</a><a href="listings.html">Property listings</a></div>
+                </div>
+                <div><strong>Support</strong>
+                    <div class="footer-links"><a href="contact.html">Contact</a><a href="features.html">Features</a><a
+                            href="login.html">Student account</a><a href="contact.html#faq">Safety & FAQs</a></div>
+                </div>
+            </div>
+            <div class="footer-bottom"><span>© 2026 UniNest Freetown. Student project demonstration.</span><span>Privacy
+                    · Safety · Help</span></div>
+        </div>
+    </footer>
+</body>
+
+</html>
