@@ -40,7 +40,7 @@ The project includes the following pages:
 - Login and Sign Up
 
 ## Screen-Shots
-<img width="830" height="310" alt="hero-room" src="https://github.com/user-attachments/assets/679fe0ac-8e7f-4b3d-b132-9a11e6478323" />
+![Hero Room](assets/images/hero-room.jpg)
 
 
 ## 🚀 How to Run the Project
