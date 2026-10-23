@@ -40,8 +40,8 @@ The project includes the following pages:
 - Login and Sign Up
 
 ## Screen-Shots
-! [index.html]
-(UniNest_Firefox_HTML_CSS.../assets/images/hero-room.jpg)
+<img width="830" height="310" alt="hero-room" src="https://github.com/user-attachments/assets/679fe0ac-8e7f-4b3d-b132-9a11e6478323" />
+
 
 ## 🚀 How to Run the Project
 
