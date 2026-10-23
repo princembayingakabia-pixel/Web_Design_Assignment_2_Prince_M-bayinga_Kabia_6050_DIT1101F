@@ -41,7 +41,10 @@ The project includes the following pages:
 
 ## Screen-Shots
 ![Hero Room](assets/images/hero-room.jpg)
-
+![Room View](assets/images/room-view.jpg)
+![Room Campus](assets/images/room-campus.jpg)
+![Students](assets/images/students.jpg)
+![Study Room](assets/images/study-room.jpg)
 
 ## 🚀 How to Run the Project
 
