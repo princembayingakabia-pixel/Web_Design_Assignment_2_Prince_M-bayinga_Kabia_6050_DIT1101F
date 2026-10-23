@@ -1,0 +1,8 @@
+UNINEST FREETOWN — COLOURFUL WEBSITE
+
+1. Extract this ZIP into a NEW folder (do not open files inside the ZIP preview).
+2. Open the uninest-website folder.
+3. Double-click index.html.
+4. If you still see an old version, close the old browser tab and open this extracted index.html again.
+
+This version uses bold navy blue, bright yellow and teal accents. Property photos are stored locally in assets/images, so they do not need external image links.

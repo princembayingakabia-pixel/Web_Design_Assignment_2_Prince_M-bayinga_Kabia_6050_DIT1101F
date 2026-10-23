@@ -1,0 +1,8 @@
+UNINEST FREETOWN — SUBMISSION CHECKLIST
+
+[ ] Test all 9 pages in a browser
+[ ] Test responsive layout at phone, tablet and desktop widths
+[ ] Capture screenshots of Home, About, Services, Features, Contact, Listings and Property Details
+[ ] Create a GitHub repository and upload the project files
+[ ] Prepare the A3 design board using the supplied wireframes and final website screenshots
+[ ] Replace demo contact details and confirm property information if publishing publicly
